@@ -37,7 +37,7 @@ public class LabThree {
 				System.out.println("You did not enter a number between 1 and 100");
 			}
 			System.out.println(" ");// Space for Visual esthetics
-			System.out.println("Would you like to try another room? (Y/N)");// Option to do another room
+			System.out.println("Would you like to try another room? (Y/N)");// Option to do another number
 
 			cont = scnr.next().charAt(0); // Gets first character so that the user can type in yes or no
 			cont = Character.toLowerCase(cont); // Changes character to lower case so capitalization doesn't matter
